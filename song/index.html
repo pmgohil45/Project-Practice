@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Song web </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+	<div>
+		<img id="image" src="file:///D:/web%20site/song/image/3.jpeg"></img>
+	</div>
+	<div>
+		<img  id="logo" src="file:///D:/web%20site/song/image/7.png"></img>
+	</div>
+	<div>
+		<ul>
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="html/Developer1.html">Developer</a></li>
+			<li><a href="file:///D:/web%20site/song/html/Contact%20Us1.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<div>
+		<p id="title"> The <br> Real <br> Music </p>
+	</div>
+	<div id="icon">
+		<p id="song"> Click Hear To Play Song </p>
+		<img id="image-icon" src="D:/web%20site/song/image/8.jpeg"></img>
+	</div>
+	<audio id="mysong">
+		<source type="audio/mp3" src="file:///D:/web%20site/song/music/Yaara%20Teri%20Yaari%20-%20darshan%20raval.mp3"></source>
+	</audio>
+</header>
+<script language="JavaScript" type="text/JavaScript">
+	var a = document.getElementById("mysong");
+	var b = document.getElementById("image-icon");
+	
+	b.onclick = function()
+	{
+		a.play();
+	}
+</script>
+</body>
+</html>

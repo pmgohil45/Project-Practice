@@ -1,0 +1,89 @@
+*
+{
+	padding: 0px;
+	height: 0px;
+	font-family: arial;
+	background-color: black;
+}
+
+
+img#image
+{
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: cover;
+	height: 530px;
+	width: 1010px;
+}
+
+/* list code */
+ul
+{
+	position: relative;
+	float: right;
+	transform: translate(-10%, 90%);
+}
+ul li
+{
+	list-style-type: none;
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+}
+ul li a.active
+{
+	background-color: cyan;
+	color: black;
+}
+ul li a:hover
+{
+	background-color: cyan;
+	color: black;
+}
+/* logo */
+#logo
+{
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 110px;
+	width: auto;
+	margin-top: 5px;
+	margin-left: -10px;
+	border-radius: 40px;	
+}
+/* title */
+p#title
+{
+	position: absolute;
+	transform: translate(370px,40px);
+	font-family: Forte;
+	color: #fff;
+	font-size: 70px;
+}
+/* icon */
+#icon
+{
+	position: absolute;
+}
+p#song
+{
+	position: relative;
+	transform: translate(700px,345px);
+	color: cyan;
+}
+img#image-icon
+{
+	position: absolute;
+	transform: translate(900px,300px);
+	height: 80px;
+	width: auto;
+	border: 1px solid transparent;
+	border-radius: 100px;
+}
