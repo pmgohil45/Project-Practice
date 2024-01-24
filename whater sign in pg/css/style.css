@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+}
+header img#img1{
+	height: 753px;
+	width: 1488px;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+}
+header img#logo1{
+	height: 150px;
+	width: auto;
+	position: absolute;
+	border: 1px solid transparent;
+	padding: 30px;
+	border-radius: 200px 350px 5px 350px;
+}
+header ul#button1{
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	list-style-type: none;
+	transform: translate(1330px,50px);
+}
+header ul li a#btn1{
+	text-decoration: none;
+	color: blue;
+	background-color: transparent;
+	padding: 10px;
+	border: 2px solid blue;
+	border-radius: 100px;
+}
+header ul li a#btn1:hover{
+	background-color: darkviolet;
+	color: cyan;
+	border-color: cyan;
+}
+header small#text1{
+	position: absolute;
+	font-size: 25px;
+	color: #000;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	transform: translate(100px,250px);
+}
+header h1#text2{
+	position: absolute;
+	transform: translate(100px,290px);
+	font-size: 80px;
+	color: #fff;
+}
+header ul#button2{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	list-style-type: none;
+	transform: translate(70px,500px);
+}
+header ul li a#btn2{
+	text-decoration: none;
+	background-color: tranparent;
+	padding: 10px;
+	color: cyan;
+	border: 1px solid cyan;
+	border-radius: 100px;
+}
+header ul li a#btn2:hover{
+	background-color: #000;
+	color: cyan;
+	border: 2px dotted red;
+	cursor: pointer;
+}
+#side-bar{
+	width: 50px;
+	height: 100vh;
+	background: linear-gradient(lightskyblue,coral);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+header img#menu{
+	margin: 10px;
+	height: 20px;
+	width: 30px;
+	position: absolute;
+	cursor: pointer;
+}
+header marquee#scroll{
+	background-color: transparent;
+	position: absolute;
+	width: 202vh;
+	transform: translate(0px,683px);
+	font-size: 30px;
+	color: violet;
+}
+header marquee a{
+	text-decoration: none;
+	color: violet;
+}
+header marquee a:hover{
+	position: relative;
+	color: cyan;
+}

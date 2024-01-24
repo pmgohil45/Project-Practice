@@ -1,0 +1,71 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	color: #fff;
+}
+/* code for background*/
+header
+{
+	background-image: url(file:///C:/pm%20gohil/JET%201/web%20site/home%20pg%202/image/1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+/* code for navigation bar */
+nav
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 90px;
+	box-sizing: border-box ;
+	border-bottom: 4px solid cyan;
+	background: rgba(250,128,114,0.3);
+}
+/* code for title */
+h1
+{
+	position: absolute;
+	color: cyan;
+	margin-left: 20px;
+	padding: 10px;
+}
+/* code for list */
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 90px;
+}
+ul li
+{
+	display: inline-block;
+	
+}
+ul li a
+{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 22px;
+	color: #fff;
+	height: 10px;
+	width: auto;
+	padding: 10px;
+	transition: 0.6s ease-in-out;
+	border-radius: 5px;
+}
+ul li a.active
+{
+	background-color: cyan;
+	color: red;
+}
+ul li a:hover
+{
+	background-color: cyan;
+	color: red;
+}

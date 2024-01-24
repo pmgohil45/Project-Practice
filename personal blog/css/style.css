@@ -1,0 +1,38 @@
+img#img2{
+	left: -2px;
+	top: -2px;
+	height: 755.2px;
+	width: 1538px;
+	position: absolute;
+	background-position: center;
+}
+#border1{
+	height: 500px;
+	width: 1000px;
+	transform: translate(60px,50px);
+	background: rgba(127,255,212,0.3);
+	//border: ridge 20px cyan;
+	box-shadow: 20px 30px 50px 0px darkviolet;
+}
+img#img1{
+	height: 550px;
+	width: 290px;
+	position: absolute;
+	transform: translate(1110px,-400px);
+}
+body h1#text1{
+	padding-left: 50px;
+	padding-top: 20px;
+	color: red;
+	font-size: 45px;
+}
+body span marquee ul#text2{
+	padding-left: 80px;
+	padding-right: 80px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: aqua;
+	line-height: 50px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
